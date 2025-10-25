@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <pre>
+        <code>
+    num = int(input('Digite um numero'))  
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é IMPAR')
+        </code>
+    </pre>
+
+    <p>A tag &lt;code&gt; gera a font monoespaçada para as linhas de código, e a tag &lt;pre&gt;, que envelopa tudo de &lt;code&gt;, usa a mesma identação no codigo do arquivo html e exibe no site</p>
+    <hr>
+    <h2>Citações</h2>
+    <h3>Citações simples</h3>
+    <p>Como diria o pai de um amigo: <q>pra quem ta se afogando, jacaré vira tronco</q></p>
+    <p>Usa-se a tag &lt;q&gt; para citações simples</p>
+    <h3>Citações completas</h3>
+    <p>Segundo Maurício Samy Silva, no seu livro Fundamentos de HTML5 e CSS3 </p>
+    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/ZyJyDwAAQBAJ?hl=pt-BR&gbpv=0">
+        HTML é a sigla em inglês para HyperText Markup Language, que, em português, significa linguagem para marcação de hipertexto
+    </blockquote>
+    <p>Usa-se a tag &lt;blockquote&gt; para citações completas e cite="URL" para fazer referência</p>
+    <hr>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Lang">HTML</abbr> e <abbr title="Cascading Styple Sheets">CSS</abbr>. To gostando demais.</p>
+    <p>Usa-se a tag &lt;abbr&gt; para indicar abreviações e deixa a possibilidade de revelar seu significado</p>
+    <hr>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <p>Usa-se a tag &lt;bdo&gt; para inverter um texto</p>
+</body>
+</html>
