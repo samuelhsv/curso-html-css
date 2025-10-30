@@ -14,5 +14,20 @@
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
         <img src="imagens/foto-g.png" alt="imagem flexível">
     </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Estou aprendendo a reproduzir audio em HTML5</p>
+    <!--
+    <audio src="midia/where-to.mp3" controls autoplay></audio> 
+    navegadores normalmente tem compatibilidade com: MP3 WAV OGG
+    -> Arquivos WAV são mais pesados, então evitar usá-los e preferir MP3 e OGG 
+    -->
+    <audio preload="metadata" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+
 </body>
 </html>
